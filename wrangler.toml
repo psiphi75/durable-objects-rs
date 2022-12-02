@@ -1,0 +1,17 @@
+name = "counter-rs"
+main = "build/worker/shim.mjs"
+compatibility_date = "2022-05-03"
+account_id = ""
+
+[vars]
+WORKERS_RS_VERSION = "0.0.12"
+
+[build]
+command = "cargo install -q worker-build --version 0.0.7 && worker-build --release"
+
+[durable_objects]
+bindings = [{name = "COUNTER", class_name = "Counter"}]
+
+[[migrations]]
+tag = "v1" # Should be unique for each entry
+new_classes = ["Counter"]
