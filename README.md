@@ -18,6 +18,6 @@ wrangler publish
 Then navigate to the URL that is published.  You can try the following
 URLs:
 
-- http://{your-host}/decrement
-- http://{your-host}/increment
-- http://{your-host}/
+- https://{your-host}/decrement
+- https://{your-host}/increment
+- https://{your-host}/
