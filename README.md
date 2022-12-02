@@ -18,7 +18,6 @@ wrangler publish
 Then navigate to the URL that is published.  You can try the following
 URLs:
 
-- http://{your-host}/decrement - decrement the counter
-- http://{your-host}/increment - increment the counter
-- http://{your-host}/ - get the counter
-
+- http://{your-host}/decrement
+- http://{your-host}/increment
+- http://{your-host}/
