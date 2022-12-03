@@ -477,6 +477,7 @@ version = "0.0.0"
 dependencies = [
  "cfg-if",
  "console_error_panic_hook",
+ "serde",
  "serde_json",
  "worker",
 ]
